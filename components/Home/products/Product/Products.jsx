@@ -24,7 +24,7 @@ export default function Products() {
         ]
           .slice(0, 8)
           .map((x, index) => (
-            <div class="card w-96 bg-base-100 shadow-xl">
+            <div className="card w-96 bg-base-100 shadow-xl">
               <figure>
                 <img
                   src="https://placeimg.com/400/225/arch"
@@ -35,7 +35,7 @@ export default function Products() {
               <div className="card-body">
                 <h2 className="card-title cursor-pointer">
                   Shoes!
-                  <div class="badge badge-secondary">NEW</div>
+                  <div className="badge badge-secondary">NEW</div>
                 </h2>
                 <p>If a dog chews shoes whose shoes does he choose?</p>
                 <div className="card-actions  justify-between items-center">

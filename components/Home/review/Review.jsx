@@ -24,7 +24,7 @@ export default function Review() {
             <div className=" ">
               <div>
                 <img
-                  class="w-24 h-24  mt-5   rounded-full mx-auto"
+                  className="w-24 h-24  mt-5   rounded-full mx-auto"
                   src="https://placeimg.com/80/80/people"
                   alt=""
                   width="384"
@@ -32,50 +32,50 @@ export default function Review() {
                 />
               </div>
               <div>
-                <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+                <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
                   <blockquote>
-                    <p class="text-lg font-medium">
+                    <p className="text-lg font-medium">
                       “Tailwind CSS is the only framework that I've seen scale
                       on large teams. It’s easy to customize, adapts to any
                       design, and the build size is tiny.”
                     </p>
                   </blockquote>
-                  <figcaption class="font-medium ">
+                  <figcaption className="font-medium ">
                     <div className=" flex justify-between items-center">
                       <div>
-                        <div class="text-sky-500 dark:text-sky-400">
+                        <div className="text-sky-500 dark:text-sky-400">
                           Sarah Dayan
                         </div>
-                        <div class="text-slate-700 dark:text-slate-500">
+                        <div className="text-slate-700 dark:text-slate-500">
                           Staff Engineer, Algolia
                         </div>
                       </div>
-                      <div class="rating">
+                      <div className="rating">
                         <input
                           type="radio"
                           name="rating-2"
-                          class="mask mask-star-2 bg-orange-400"
+                          className="mask mask-star-2 bg-orange-400"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          class="mask mask-star-2 bg-orange-400"
+                          className="mask mask-star-2 bg-orange-400"
                           checked
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          class="mask mask-star-2 bg-orange-400"
+                          className="mask mask-star-2 bg-orange-400"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          class="mask mask-star-2 bg-orange-400"
+                          className="mask mask-star-2 bg-orange-400"
                         />
                         <input
                           type="radio"
                           name="rating-2"
-                          class="mask mask-star-2 bg-orange-400"
+                          className="mask mask-star-2 bg-orange-400"
                         />
                       </div>
                     </div>
